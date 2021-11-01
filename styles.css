@@ -21,6 +21,7 @@ body {
     position: relative;
 }
 .container--slider-card {
+    background-color: red;
     position: relative;
     overflow: hidden;
 
@@ -66,13 +67,11 @@ body {
 
 .slider-card {
     display: flex;
-    /* gap: 1rem; */
     transition: .2s;
 }
 
-card {
-    padding: 1rem;
-    overflow: hidden;
+.card {
+    padding-right: 1rem;
 }
 
 .card h4 {
@@ -83,4 +82,5 @@ card {
 
 .card img {
     height: 300px;
+    /* width: 100%; */
 }
